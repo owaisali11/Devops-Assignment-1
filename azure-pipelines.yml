@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: DevOpsAssignment-Pool
 
 steps:
 - script: echo Hello, world!
